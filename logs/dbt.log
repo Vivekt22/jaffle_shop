@@ -1,13 +1,11 @@
-[0m12:06:19.474943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8730fdd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff87f7ead0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8c18ad90>]}
+[0m15:42:54.161415 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a73560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d84ed50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d84e9c0>]}
 
 
-============================== 12:06:19.477587 | ccaa7765-02a4-4229-96c7-1c468717276a ==============================
-[0m12:06:19.477587 [info ] [MainThread]: Running with dbt=1.7.19
-[0m12:06:19.477918 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/root/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init jaffle_shop', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
-[0m12:06:19.478215 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/root/.dbt')}
-[0m12:06:19.478490 [info ] [MainThread]: Creating dbt configuration folder at 
-[0m12:06:19.479526 [debug] [MainThread]: Starter project path: /usr/local/lib/python3.11/site-packages/dbt/include/starter_project
-[0m12:06:19.487240 [info ] [MainThread]: 
+============================== 15:42:54.174325 | e7e03810-a088-408a-bb09-69177948b6e1 ==============================
+[0m15:42:54.174325 [info ] [MainThread]: Running with dbt=1.9.4
+[0m15:42:54.174611 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/vivekthomas/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:43:09.940878 [debug] [MainThread]: Starter project path: /Users/vivekthomas/Documents/learning/dbt_jaffle_shop/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m15:43:09.950790 [info ] [MainThread]: 
 Your new dbt project "jaffle_shop" was created!
 
 For more information on how to configure the profiles.yml file,
@@ -23,9 +21,68 @@ Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
 
 Happy modeling!
 
-[0m12:06:19.487473 [info ] [MainThread]: Setting up your profile.
-[0m12:09:41.080532 [info ] [MainThread]: Profile jaffle_shop written to /root/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
-[0m12:09:41.083818 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 201.62238, "process_user_time": 2.291457, "process_kernel_time": 0.060905, "process_mem_max_rss": "204952", "process_out_blocks": "1644", "process_in_blocks": "0"}
-[0m12:09:41.085163 [debug] [MainThread]: Command `dbt init` succeeded at 12:09:41.084877 after 201.62 seconds
-[0m12:09:41.085899 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8734e7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff87302210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff887a6b10>]}
-[0m12:09:41.086582 [debug] [MainThread]: Flushing usage events
+[0m15:43:09.951193 [info ] [MainThread]: Setting up your profile.
+[0m15:43:26.339528 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m15:43:26.339726 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m15:43:26.339830 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m15:44:23.051726 [info ] [MainThread]: Profile jaffle_shop written to /Users/vivekthomas/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:44:23.053781 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 88.914055, "process_in_blocks": "0", "process_kernel_time": 0.549706, "process_mem_max_rss": "478625792", "process_out_blocks": "0", "process_user_time": 2.606835}
+[0m15:44:23.054317 [debug] [MainThread]: Command `dbt init` succeeded at 15:44:23.054232 after 88.92 seconds
+[0m15:44:23.054666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c463980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11e6dd880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11e5c7710>]}
+[0m15:44:23.054961 [debug] [MainThread]: Flushing usage events
+[0m15:44:23.684081 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:44:32.140455 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104615820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104af5b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104af5730>]}
+
+
+============================== 15:44:32.141944 | 921b9ff3-ba4a-42e3-925d-d9b165f1eab8 ==============================
+[0m15:44:32.141944 [info ] [MainThread]: Running with dbt=1.9.4
+[0m15:44:32.142185 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/vivekthomas/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:44:32.148751 [info ] [MainThread]: dbt version: 1.9.4
+[0m15:44:32.148894 [info ] [MainThread]: python version: 3.12.8
+[0m15:44:32.149021 [info ] [MainThread]: python path: /Users/vivekthomas/Documents/learning/dbt_jaffle_shop/.venv/bin/python3
+[0m15:44:32.149125 [info ] [MainThread]: os info: macOS-15.4.1-arm64-arm-64bit
+[0m15:44:32.401148 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m15:44:32.401396 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m15:44:32.401529 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m15:44:32.607440 [info ] [MainThread]: Using profiles dir at /Users/vivekthomas/.dbt
+[0m15:44:32.607659 [info ] [MainThread]: Using profiles.yml file at /Users/vivekthomas/.dbt/profiles.yml
+[0m15:44:32.607785 [info ] [MainThread]: Using dbt_project.yml file at /Users/vivekthomas/Documents/learning/dbt_jaffle_shop/dbt_project.yml
+[0m15:44:32.607896 [info ] [MainThread]: adapter type: databricks
+[0m15:44:32.607997 [info ] [MainThread]: adapter version: 1.10.1
+[0m15:44:32.608105 [info ] [MainThread]: Configuration:
+[0m15:44:32.608214 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:44:32.608322 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:44:32.608427 [info ] [MainThread]: Required dependencies:
+[0m15:44:32.608645 [debug] [MainThread]: Executing "git --help"
+[0m15:44:32.619381 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:44:32.619800 [debug] [MainThread]: STDERR: "b''"
+[0m15:44:32.619938 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:44:32.620064 [info ] [MainThread]: Connection:
+[0m15:44:32.620210 [info ] [MainThread]:   host: adb-4101626869126089.9.azuredatabricks.net
+[0m15:44:32.620304 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/9247edbd8cdf37aa
+[0m15:44:32.620404 [info ] [MainThread]:   catalog: learning
+[0m15:44:32.620506 [info ] [MainThread]:   schema: jaffle_shop
+[0m15:44:32.620749 [info ] [MainThread]: Registered adapter: databricks=1.10.1
+[0m15:44:32.671223 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug, idle-time=0s, language=None, compute-name=) - Creating connection
+[0m15:44:32.671489 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m15:44:32.671602 [debug] [MainThread]: Using databricks connection "debug"
+[0m15:44:32.671701 [debug] [MainThread]: On debug: select 1 as id
+[0m15:44:32.671784 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:44:33.150610 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f02824-bea1-109a-b801-8961755761d7) - Created
+[0m15:44:35.715192 [debug] [MainThread]: SQL status: OK in 3.040 seconds
+[0m15:44:35.716807 [debug] [MainThread]: Databricks adapter: Cursor(session-id=01f02824-bea1-109a-b801-8961755761d7, command-id=01f02824-beb7-1f5f-86b6-938f856536c5) - Closing
+[0m15:44:35.717266 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:44:35.717608 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:44:35.717874 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/vivekthomas/Documents/learning/dbt_jaffle_shop/dbt_project.yml> not found
+
+[0m15:44:35.718610 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 3.5983257, "process_in_blocks": "0", "process_kernel_time": 0.150726, "process_mem_max_rss": "219627520", "process_out_blocks": "0", "process_user_time": 0.89088}
+[0m15:44:35.718969 [debug] [MainThread]: Command `dbt debug` failed at 15:44:35.718885 after 3.60 seconds
+[0m15:44:35.719259 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:44:35.719478 [debug] [MainThread]: On debug: Close
+[0m15:44:35.719693 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f02824-bea1-109a-b801-8961755761d7) - Closing
+[0m15:44:35.960400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c94440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111f35310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103f6a690>]}
+[0m15:44:35.960743 [debug] [MainThread]: Flushing usage events
+[0m15:44:36.496964 [debug] [MainThread]: An error was encountered while trying to flush usage events
