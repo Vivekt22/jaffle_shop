@@ -5,4 +5,4 @@ sources:
     database: source_data
     schema: jaffle_shop
     tables:
-      - name: stripe_payments
+      - name: payments
