@@ -1,0 +1,6 @@
+#!/bin/bash
+
+docker run -it --rm \
+  -v "$(pwd)":/usr/app \
+  -v "$HOME/.dbt":/root/.dbt \
+  dbt-databricks "$@"

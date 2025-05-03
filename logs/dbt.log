@@ -1,0 +1,31 @@
+[0m12:06:19.474943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8730fdd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff87f7ead0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8c18ad90>]}
+
+
+============================== 12:06:19.477587 | ccaa7765-02a4-4229-96c7-1c468717276a ==============================
+[0m12:06:19.477587 [info ] [MainThread]: Running with dbt=1.7.19
+[0m12:06:19.477918 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/root/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init jaffle_shop', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:06:19.478215 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/root/.dbt')}
+[0m12:06:19.478490 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m12:06:19.479526 [debug] [MainThread]: Starter project path: /usr/local/lib/python3.11/site-packages/dbt/include/starter_project
+[0m12:06:19.487240 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:06:19.487473 [info ] [MainThread]: Setting up your profile.
+[0m12:09:41.080532 [info ] [MainThread]: Profile jaffle_shop written to /root/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:09:41.083818 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 201.62238, "process_user_time": 2.291457, "process_kernel_time": 0.060905, "process_mem_max_rss": "204952", "process_out_blocks": "1644", "process_in_blocks": "0"}
+[0m12:09:41.085163 [debug] [MainThread]: Command `dbt init` succeeded at 12:09:41.084877 after 201.62 seconds
+[0m12:09:41.085899 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8734e7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff87302210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff887a6b10>]}
+[0m12:09:41.086582 [debug] [MainThread]: Flushing usage events
